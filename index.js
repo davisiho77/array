@@ -59,3 +59,7 @@ console.log(slicedArray); // Output: [3, 4]
 const ConvertirString = ['apple', 'banana', 'orange'];
 const string = array.join(', '); // Puedes elegir cualquier separador, aquí se utiliza una coma seguida de un espacio
 console.log(string); // Output: "apple, banana, orange"
+//Obtener una subsección del array desde un índice negativo usando
+const SubsecciónNegativo = [1, 2, 3, 4, 5];
+const subArray = array.slice(-3);
+console.log(subArray); // Output: [3, 4, 5]
