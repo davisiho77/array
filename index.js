@@ -47,3 +47,7 @@ console.log(array); // Output: [1, 2, 3]
 const elementoPrincipio = [2, 3, 4];
 array.unshift(1);
 console.log(array); // Output: [1, 2, 3, 4]
+//Eliminar el primer elemento del array usando
+const EliminarPrimerUsando = [1, 2, 3, 4, 5];
+array.shift();
+console.log(array); // Output: [2, 3, 4, 5]
