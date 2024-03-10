@@ -67,3 +67,11 @@ console.log(subArray); // Output: [3, 4, 5]
 const EliminarModificar = [1, 2, 3, 4, 5];
 const newArray = array.slice(0, 2).concat(array.slice(3));
 console.log(newArray); // Output: [1, 2, 4, 5]
+/*Agregar múltiples elementos al principio del array usando  con
+spread operator */
+let MúltiplesEltiples = [3, 4];
+const newElements = [1, 2];
+
+array.unshift(...newElements);
+
+console.log(array); // Output: [1, 2, 3, 4]
