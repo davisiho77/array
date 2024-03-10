@@ -38,3 +38,8 @@ const ElementosSuando = [1, 2, 3];
 const newElement = 4;
 array.push(newElement);
 console.log(newElement); // Output: 4
+//Eliminar el último elemento del array usando
+const EliminarUsando = [1, 2, 3, 4];
+const removedElement = array.pop();
+console.log(removedElement); // Output: 4
+console.log(array); // Output: [1, 2, 3]
