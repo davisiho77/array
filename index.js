@@ -33,3 +33,8 @@ function generarArrayDinamico(n) {
   //Obtener la longitud de un array
   const array = [1, 2, 3, 4, 5];
 console.log(array.length); // Output: 5
+//Agregar elementos al final del array usando
+const ElementosSuando = [1, 2, 3];
+const newElement = 4;
+array.push(newElement);
+console.log(newElement); // Output: 4
