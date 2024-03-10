@@ -10,3 +10,6 @@ let arrayConstructor = new Array(3);
 let secuenciaNumerica = Array.from({ length: 5 }, (_, index) => index + 1);
 //Crear un array mediante la repetición de un valor utilizando el método
 let arrayRepetido = Array(5).fill('a');
+//Crear un array a partir de una cadena de texto usando el método
+let cadena = 'Hola, cómo estás';
+let arrayDesdeCadena = cadena.split(' ');
