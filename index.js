@@ -17,3 +17,6 @@ let arrayDesdeCadena = cadena.split(' ');
 let array1 = [1, 2, 3];
 let array2 = [4, 5, 6];
 let arrayCombinado = [...array1, ...array2];
+//Crear un array con valores únicos utilizando el método y el operador
+let arrayConValoresRepetidos = [1, 2, 2, 3, 3, 4, 5];
+let arrayUnico = [...new Set(arrayConValoresRepetidos)];
