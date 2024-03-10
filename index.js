@@ -4,3 +4,5 @@ let arrayVacio = [];
 let arrayConElementos = [1, 2, 3, 4, 5];
 //Crear un array con elementos de diferentes tipos de datos
 let arrayDiferentesTipos = [1, 'dos', true, { nombre: 'Juan' }];
+//Crear un array utilizando el constructor Array
+let arrayConstructor = new Array(3);
