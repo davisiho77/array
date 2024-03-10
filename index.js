@@ -51,3 +51,7 @@ console.log(array); // Output: [1, 2, 3, 4]
 const EliminarPrimerUsando = [1, 2, 3, 4, 5];
 array.shift();
 console.log(array); // Output: [2, 3, 4, 5]
+//Obtener una porción del array usando
+const ObtenerPorcion = [1, 2, 3, 4, 5];
+const slicedArray = array.slice(2, 4);
+console.log(slicedArray); // Output: [3, 4]
