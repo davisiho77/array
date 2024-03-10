@@ -1,0 +1,2 @@
+// array vacio 
+let arrayVacio = [];
