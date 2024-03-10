@@ -63,3 +63,7 @@ console.log(string); // Output: "apple, banana, orange"
 const SubsecciónNegativo = [1, 2, 3, 4, 5];
 const subArray = array.slice(-3);
 console.log(subArray); // Output: [3, 4, 5]
+//Eliminar una porción del array sin modificar el original usando 
+const EliminarModificar = [1, 2, 3, 4, 5];
+const newArray = array.slice(0, 2).concat(array.slice(3));
+console.log(newArray); // Output: [1, 2, 4, 5]
