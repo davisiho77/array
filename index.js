@@ -30,3 +30,6 @@ function generarArrayDinamico(n) {
   }
   
   let arrayDinamico = generarArrayDinamico(5);
+  //Obtener la longitud de un array
+  const array = [1, 2, 3, 4, 5];
+console.log(array.length); // Output: 5
