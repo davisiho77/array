@@ -43,3 +43,7 @@ const EliminarUsando = [1, 2, 3, 4];
 const removedElement = array.pop();
 console.log(removedElement); // Output: 4
 console.log(array); // Output: [1, 2, 3]
+//Agregar elementos al principio del array usando
+const elementoPrincipio = [2, 3, 4];
+array.unshift(1);
+console.log(array); // Output: [1, 2, 3, 4]
