@@ -55,3 +55,7 @@ console.log(array); // Output: [2, 3, 4, 5]
 const ObtenerPorcion = [1, 2, 3, 4, 5];
 const slicedArray = array.slice(2, 4);
 console.log(slicedArray); // Output: [3, 4]
+//Convertir un array en un string usando 
+const ConvertirString = ['apple', 'banana', 'orange'];
+const string = array.join(', '); // Puedes elegir cualquier separador, aquí se utiliza una coma seguida de un espacio
+console.log(string); // Output: "apple, banana, orange"
